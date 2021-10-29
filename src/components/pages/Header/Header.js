@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 import logo from '../../../images/logo.png'
 import './Header.css'
 
 const Header = () => {
+    const { user, logout } = useAuth();
     const activeStyle = {
         color: 'black',
         textDecoration: 'none',
@@ -22,10 +24,9 @@ const Header = () => {
                 <NavLink style={activeStyle} to="/home">Home</NavLink>
                 <NavLink style={activeStyle} to="/1">1</NavLink>
                 <NavLink style={activeStyle} to="/2">2</NavLink>
-                <NavLink style={activeStyle} to="/3">4</NavLink>
+                <NavLink style={activeStyle} to="/login">Login</NavLink>
+                {user.email && <button className="btn btn-dark m-2" onClick={logout}>Log out</button>}
             </div>
-
-
         </div >
     );
 };
