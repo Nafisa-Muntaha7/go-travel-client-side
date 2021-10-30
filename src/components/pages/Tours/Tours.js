@@ -7,7 +7,7 @@ import './Tours.css'
 const Tours = () => {
     const [tours, setTours] = useState([]);
     useEffect(() => {
-        fetch('../../../tours.json')
+        fetch('http://localhost:7000/tours')
             .then(res => res.json())
             .then(data => setTours(data))
     }, [])
