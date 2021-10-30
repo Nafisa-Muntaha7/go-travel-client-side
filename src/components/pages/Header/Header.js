@@ -12,8 +12,8 @@ const Header = () => {
         margin: '15px',
         fontWeight: 'bold',
         padding: '5px'
-
     }
+
     return (
         <div className='d-flex ms-4 p-4 header'>
             <div className="col-3">
