@@ -10,7 +10,7 @@ const Tour = (props) => {
             <h2 className="p-2 fw-bold">{name}</h2>
             <h4>Booking Price: {price}  <i className="fas fa-star"></i> {review}</h4>
             <h6>{shortDes}</h6>
-            <button className="btn btn-dark"><Link className="text-decoration-none" to="/order-review">Book Now</Link></button>
+            <button className="btn btn-dark"><Link className="text-decoration-none" to="/booking-review">Book Now</Link></button>
         </div>
 
     );

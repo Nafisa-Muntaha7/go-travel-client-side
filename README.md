@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# 'Go Travel' Travel Agency
 
 [Go Travel](https://go-travel-agency.web.app/).
 
-## Available Scripts
 
-In the project directory, you can run:
+### `Go Travel`
 
-### `npm start`
+Go Travel are one stop solution for your travel needs. We make sure you fly over your destiny safely, travel without any difficulty and enjoy your vacation hassle free. We are a passionate team with the vision of delivering
+the best & exciting experience for customers.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `Why choose us?`
 
-### `npm test`
+When you book through a travel agency, you save time. It is the daily job of us to sift through countless travel information and flight details. We have access to more information so that we can easily compare and provide a  better flight deal for you based on your budget. We make sure you're safe during the trip. We give our 100% to make the trip enjoyable, and you can save on your time and money.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `Discover World`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Explore Madrid, Spain's central capital: Seminyak, a beach resort area at the southern end of Bali, Indonesia: Barcelona, the cosmopolitan capital of Spain’s Catalonia region: Denpasar, capital city and main hub of the Indonesia: Vatican City, a city-state surrounded by Rome, Italy, headquaters of Roman Catholic Church: Seville. Explore one of the world best tourist attraction, Paris, France and experience fancy night life at Paris. And many more elegant, beautiful places.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Benefits of travelling`
 
-### `npm run eject`
+The skills and experience you gain from traveling abroad can give you life-long personal benefits as well as a leg up in the professional world. Traveling can improve your mental health by: Helping you feel calm. Taking time from work to see new places releases the stress you've been holding onto. Relieving the tension and stress of your work life lets your mind relax and heal. It increases global awareness, improves communication skills, increases maturity and confidence, and ultimately creates a more well-rounded young professional.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+So pack up your baggages and book a tour right now!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Book a Tour`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Traveling fosters a medium to build human connections with one another by learning about culture, food, new sites, music, and the way people live their day to day lives in different parts of the world. Ans we will guide you throughout your tour. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Don't worry about anything, we insure that travelers will have the correct travel documents, so they don't end up missing their plane or cruise.  And when things do go wrong, we have the resources and the contacts to get travelers to the head of the line.
 
-## Learn More
+So pack up your baggages, book a tour and let's fly over there!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,12 +1,15 @@
-import { Placeholder } from 'react-bootstrap';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import AddPlace from './components/pages/AddPlace/AddPlace';
 import Footer from './components/pages/Footer/Footer';
 import Header from './components/pages/Header/Header';
 import Home from './components/pages/Home/Home';
 import Login from './components/pages/Login/Login';
+import ManageBooking from './components/pages/ManageBooking/ManageBooking';
 import NotFound from './components/pages/NotFound/NotFound';
+import PlaceOrder from './components/pages/PlaceOrder/PlaceOrder';
 import PrivateRoute from './components/pages/PrivateRoute/PrivateRoute';
+import Register from './components/pages/Register/Register';
 import AuthProvider from './context/AuthProvider';
 
 function App() {
@@ -21,9 +24,18 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          <PrivateRoute path="/order-review">
-            <Placeholder />
+          <PrivateRoute path="/booking-review">
+            <PlaceOrder />
           </PrivateRoute>
+          <PrivateRoute path="/manage-booking">
+            <ManageBooking />
+          </PrivateRoute>
+          <PrivateRoute path="/add-place">
+            <AddPlace />
+          </PrivateRoute>
+          <Route path="/register">
+            <Register />
+          </Route>
           <Route path="/login">
             <Login />
           </Route>
