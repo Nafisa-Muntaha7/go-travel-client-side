@@ -7,7 +7,7 @@ import './Tours.css'
 const Tours = () => {
     const [tours, setTours] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:7000/tours')
+        fetch('https://guarded-tor-97154.herokuapp.com/tours')
             .then(res => res.json())
             .then(data => setTours(data))
     }, [])

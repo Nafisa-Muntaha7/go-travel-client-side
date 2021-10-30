@@ -4,7 +4,7 @@ import travel from '../../../images/go-travel.jfif'
 
 const Footer = () => {
     return (
-        <div className=" bg-dark text-white p-5">
+        <div className=" bg-dark text-white p-5 mt-5">
             <div className="d-flex">
                 <div className="col-4">
                     <img src={logo} alt="" />

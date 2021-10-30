@@ -13,7 +13,7 @@ const HomeExtraTwo = () => {
             <h3 className="fw-bold">PARIS OPERA</h3>
             <p className="text-danger mb-5"><i>NOTRE DAME DE PARIS</i></p>
             <h3 className="border-bottom border-info"><i>We are a passionate team with the vision of delivering <br />
-                the best &amp; exiting experience for customers</i></h3>
+                the best &amp; exciting experience for customers</i></h3>
         </div>
     );
 };

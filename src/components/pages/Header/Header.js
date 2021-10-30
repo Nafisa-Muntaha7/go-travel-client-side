@@ -25,7 +25,7 @@ const Header = () => {
                 <NavLink style={activeStyle} to="/order-review">Order Review</NavLink>
                 <NavLink style={activeStyle} to="/2">2</NavLink>
                 <NavLink style={activeStyle} to="/login">Login</NavLink>
-                <span>{user.displayName}</span>
+                <span>Logged in: {user.displayName}</span>
                 {user.email && <button className="btn btn-dark m-2" onClick={logout}>Log out</button>}
             </div>
         </div >
