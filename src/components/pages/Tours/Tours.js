@@ -15,7 +15,7 @@ const Tours = () => {
             <h1 className="fw-bold pb-5">We promise, it won't get boring.</h1>
             <div className="tours">
                 {
-                    tours.map(tour => <Tour tour={tour} ></Tour>)
+                    tours.map(tour => <Tour key={tour.name} tour={tour} ></Tour>)
                 }
 
             </div>

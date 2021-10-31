@@ -46,7 +46,7 @@ const PlaceOrder = () => {
             <h3>Booked tours</h3>
             <div style={style}>
                 {
-                    bookings.map(booking => <Booking booking={booking} handleDelete={handleDelete}></Booking>)
+                    bookings.map(booking => <Booking key={booking._id} booking={booking} handleDelete={handleDelete}></Booking>)
                 }
 
             </div>
