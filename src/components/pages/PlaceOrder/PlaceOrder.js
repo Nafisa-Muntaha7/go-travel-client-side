@@ -16,7 +16,8 @@ const PlaceOrder = () => {
         gridRowGap: '10px'
     }
     useEffect(() => {
-        fetch(`https://guarded-tor-97154.herokuapp.com/bookings`)
+        //fetch(`http://localhost:7000/bookings`)
+        fetch(`https://guarded-tor-97154.herokuapp.com/tours`)
             .then(res => res.json())
             .then(data => setBookings(data))
     }, [])
@@ -24,7 +25,8 @@ const PlaceOrder = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure you want to cancel your booking?')
         if (proceed) {
-            const url = `https://guarded-tor-97154.herokuapp.com/bookings/${id}`
+            //const url = `http://localhost:7000/bookings/${id}`
+            const url = `https://guarded-tor-97154.herokuapp.com/tours/${id}`
             fetch(url, {
                 method: 'DELETE',
             })
@@ -46,6 +48,7 @@ const PlaceOrder = () => {
                 {
                     bookings.map(booking => <Booking booking={booking} handleDelete={handleDelete}></Booking>)
                 }
+
             </div>
             <BookingForm />
         </div>
