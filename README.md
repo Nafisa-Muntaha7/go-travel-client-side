@@ -23,7 +23,6 @@ Explore Madrid, Spain's central capital: Seminyak, a beach resort area at the so
 
 The skills and experience you gain from traveling abroad can give you life-long personal benefits as well as a leg up in the professional world. Traveling can improve your mental health by: Helping you feel calm. Taking time from work to see new places releases the stress you've been holding onto. Relieving the tension and stress of your work life lets your mind relax and heal. It increases global awareness, improves communication skills, increases maturity and confidence, and ultimately creates a more well-rounded young professional.
 
-So pack up your baggages and book a tour right now!
 
 ### `Book a Tour`
 
